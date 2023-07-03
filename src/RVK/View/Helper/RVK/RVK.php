@@ -4,7 +4,7 @@
  */
 namespace RVK\View\Helper\RVK;
 
-class RVK extends \Zend\View\Helper\AbstractHelper
+class RVK extends \Laminas\View\Helper\AbstractHelper
 {
     protected $config;
 
