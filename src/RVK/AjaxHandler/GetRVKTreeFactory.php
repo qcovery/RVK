@@ -62,12 +62,6 @@ class GetRVKTreeFactory extends \VuFind\AjaxHandler\GetItemStatusesFactory
         if (!empty($options)) {
             throw new \Exception('Unexpected options passed to factory.');
         }
-        return new GetRVKTree(
-            $container->get('VuFind\Session\Settings'),
-            $container->get('VuFind\Config\PluginManager')->get('config'),
-            $container->get('DAIAplus\ILS\Connection'),
-            $container->get('ViewRenderer'),
-            $container->get('VuFind\ILS\Logic\Holds')
-        );
+        return new GetRVKTree();
     }
 }
