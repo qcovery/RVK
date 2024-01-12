@@ -1,6 +1,6 @@
 <?php
 /**
- * SearchBox helper factory.
+ * RVK helper factory.
  *
  * PHP version 7
  *
@@ -31,7 +31,7 @@ use Interop\Container\ContainerInterface;
 use Laminas\ServiceManager\Factory\FactoryInterface;
 
 /**
- * SearchBox helper factory.
+ * RVK helper factory.
  *
  * @category VuFind
  * @package  View_Helpers

@@ -9,7 +9,7 @@ class RVK extends \Laminas\View\Helper\AbstractHelper
     protected $config;
 
     /**
-     *
+     * Constructor.
      */
     public function __construct($config)
     {
