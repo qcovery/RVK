@@ -29,7 +29,7 @@
  */
 namespace RVK\AjaxHandler;
 
-use Zend\Mvc\Controller\Plugin\Params;
+use Laminas\Mvc\Controller\Plugin\Params;
 use VuFind\AjaxHandler\AbstractBase;
 
 /**
